@@ -6,9 +6,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-public class PointController {
+public class LinkController {
     @RequestMapping(value = "/load")
-    public String load(){
+    public String login(){
         System.out.println("load web");
         return "load";
     }
@@ -32,4 +32,3 @@ public class PointController {
             return "load";
         }
     }
-}
