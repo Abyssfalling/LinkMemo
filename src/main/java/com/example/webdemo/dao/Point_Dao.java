@@ -92,11 +92,10 @@ public class Point_Dao {
         return null;
     }
 
-    public PointInfo find_one(String s)
+    public PointInfo find_center_word(String s)
     {
         String sql = "select * from linkwords.point where point_english = ?";
-        PointInfo one = getInstance(PointInfo.class,sql,s);
         //System.out.println(s);
-        return one;
+        return getInstance(PointInfo.class,sql,s);
     }
 }

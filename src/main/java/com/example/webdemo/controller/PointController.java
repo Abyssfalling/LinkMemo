@@ -18,7 +18,7 @@ public class PointController {
         System.out.println("输入：" + English + " " + Chinese);
 
         Point_Dao d = new Point_Dao();
-        PointInfo u = d.find_one(English);
+        PointInfo u = d.find_center_word(English);
 
         if(u == null)
         {
