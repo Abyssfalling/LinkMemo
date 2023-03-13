@@ -123,7 +123,7 @@ public class Link_Dao {
 
     public LinkInfo find_center_id(int id)
     {
-        String sql = "select * from linkwords.point where link_center = ?";
+        String sql = "select * from linkwords.link where link_center = ?";
         //System.out.println(s);
         return getInstance(LinkInfo.class,sql,id);
     }
@@ -139,24 +139,24 @@ public class Link_Dao {
 
     public String Add(int id,String link,int index) {
 
-        Link_Dao d = new Link_Dao();
+        //Link_Dao d = new Link_Dao();
 
         if(index == 0)
         {
-            d.insert0(id,link);
+            insert0(id,link);
             System.out.println(id + link + " 添加0成功");
             return "Success";
         }
         else if (index == 1)
         {
-            d.insert1(id,link);
+            insert1(id,link);
             System.out.println(id + link + " 添加1成功");
             return "Success";
         }
 
         else if (index == 2)
         {
-            d.insert2(id,link);
+            insert2(id,link);
             System.out.println(id + link + " 添加2成功");
             return "Success";
         }
@@ -165,28 +165,28 @@ public class Link_Dao {
     }
 
     public String Renew(int id,String link,int index){
-        Link_Dao d = new Link_Dao();
+        //Link_Dao d = new Link_Dao();
 
         if(index == 0)
         {
-            d.renew0(id,link);
+            renew0(id,link);
             System.out.println(id + link + " 更新0成功");
             return "Success";
         }
         else if (index == 1)
         {
-            d.renew1(id,link);
+            renew1(id,link);
             System.out.println(id + link + " 更新1成功");
             return "Success";
         }
 
         else if (index == 2)
         {
-            d.renew2(id,link);
+            renew2(id,link);
             System.out.println(id + link + " 更新2成功");
             return "Success";
         }
 
-        return "add_link";
+        return "renew_link";
     }
 }
