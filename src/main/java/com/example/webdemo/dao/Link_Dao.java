@@ -32,41 +32,45 @@ public class Link_Dao {
     }
 
     public void insert0(int center_id,String looklike) {
-        String sql = "insert into linkwords.link(link_center, link_looklike) value(?,?)";
+        //String sql = "insert into linkwords.link(link_center, link_looklike) value(?,?)";
+        String sql = "insert into LinkMemo.link(link_center, link_looklike) value(?,?)";
         update(sql,center_id,looklike);
     }
 
     public void insert1(int center_id,String meanlike) {
-        String sql = "insert into linkwords.link(link_center, link_meanlike) value(?,?)";
+        //String sql = "insert into linkwords.link(link_center, link_meanlike) value(?,?)";
+        String sql = "insert into LinkMemo.link(link_center, link_meanlike) value(?,?)";
         update(sql,center_id,meanlike);
     }
 
     public void insert2(int center_id,String relate) {
-        String sql = "insert into linkwords.link(link_center, link_relate) value(?,?)";
+        //String sql = "insert into linkwords.link(link_center, link_relate) value(?,?)";
+        String sql = "insert into LinkMemo.link(link_center, link_relate) value(?,?)";
         update(sql,center_id,relate);
     }
 
     public void renew0(int center_id,String looklike)
     {
-        String sql = "update linkwords.link set link_looklike = ? where link_center = ?";
+        //String sql = "update linkwords.link set link_looklike = ? where link_center = ?";
+        String sql = "update LinkMemo.link set link_looklike = ? where link_center = ?";
         update(sql,looklike,center_id);
     }
 
     public void renew1(int center_id,String meanlike)
     {
-        String sql = "update linkwords.link set link_meanlike = ? where link_center = ?";
+        String sql = "update LinkMemo.link set link_meanlike = ? where link_center = ?";
         update(sql,meanlike,center_id);
     }
 
     public void renew2(int center_id,String relate)
     {
-        String sql = "update linkwords.link set link_relate = ? where link_center = ?";
+        String sql = "update LinkMemo.link set link_relate = ? where link_center = ?";
         update(sql,relate,center_id);
     }
 
     public void delete(int center_id)
     {
-        String sql = "delete from linkwords.link where link_center = ?";
+        String sql = "delete from LinkMemo.link where link_center = ?";
         update(sql,center_id);
     }
 
@@ -118,15 +122,17 @@ public class Link_Dao {
     public int get_center_id(String center)
     {
         Point_Dao center_word = new Point_Dao();
+        System.out.println(center);
         return center_word.find_center_word(center).getPoint_id();
     }
 
     public LinkInfo find_center_id(int id)
     {
-        String sql = "select * from linkwords.link where link_center = ?";
+        String sql = "select * from LinkMemo.link where link_center = ?";
         //System.out.println(s);
         return getInstance(LinkInfo.class,sql,id);
     }
+
 
     //查询链接是否存在，存在true，不存在false
     public boolean checkAdd(int id)
@@ -144,20 +150,20 @@ public class Link_Dao {
         if(index == 0)
         {
             insert0(id,link);
-            System.out.println(id + link + " 添加0成功");
+            System.out.println(id + " " + link + " 添加0成功");
             return "Success";
         }
         else if (index == 1)
         {
             insert1(id,link);
-            System.out.println(id + link + " 添加1成功");
+            System.out.println(id + " " + link + " 添加1成功");
             return "Success";
         }
 
         else if (index == 2)
         {
             insert2(id,link);
-            System.out.println(id + link + " 添加2成功");
+            System.out.println(id + " " + link + " 添加2成功");
             return "Success";
         }
 
@@ -170,20 +176,20 @@ public class Link_Dao {
         if(index == 0)
         {
             renew0(id,link);
-            System.out.println(id + link + " 更新0成功");
+            System.out.println(id + " " + link + " 更新0成功");
             return "Success";
         }
         else if (index == 1)
         {
             renew1(id,link);
-            System.out.println(id + link + " 更新1成功");
+            System.out.println(id + " " + link + " 更新1成功");
             return "Success";
         }
 
         else if (index == 2)
         {
             renew2(id,link);
-            System.out.println(id + link + " 更新2成功");
+            System.out.println(id + " " + link + " 更新2成功");
             return "Success";
         }
 

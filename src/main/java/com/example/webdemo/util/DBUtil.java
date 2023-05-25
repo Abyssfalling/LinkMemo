@@ -6,9 +6,17 @@ public class DBUtil {
         Connection con = null;
         String driver = "com.mysql.cj.jdbc.Driver";
 
+        /*
         String url = "jdbc:mysql://localhost:3306/linkwords?&useSSL=false&serverTimezone=UTC";
         String user = "root";
         String password = "1231";
+        */
+
+        String url = "jdbc:mysql://114.80.33.99:3306/LinkMemo?&useSSL=false&serverTimezone=UTC";
+        String user = "root";
+        String password = "bigdata2101~";
+
+
         try {
             //注册JDBC驱动程序
             Class.forName(driver);

@@ -32,20 +32,9 @@ public class Point_Dao {
     }
 
     public void insert(String English,String Chinese) {
-        String sql = "insert into linkwords.point(point_english, point_chinese) value(?,?)";
+        //String sql = "insert into linkwords.point(point_english, point_chinese) value(?,?)";
+        String sql = "insert into LinkMemo.point(point_english, point_chinese) value(?,?)";
         update(sql,English,Chinese);
-    }
-
-    public void renew(String English,String Chinese)
-    {
-        String sql = "update linkwords.point set point_chinese = ? where point_english = ?";
-        update(sql,Chinese,English);
-    }
-
-    public void delete(String English)
-    {
-        String sql = "delete from linkwords.point where point_english = ?";
-        update(sql,English);
     }
 
     public <T> T getInstance(Class<T> clazz, String sql, Object... args) {
@@ -94,8 +83,17 @@ public class Point_Dao {
 
     public PointInfo find_center_word(String s)
     {
-        String sql = "select * from linkwords.point where point_english = ?";
+        //String sql = "select * from linkwords.point where point_english = ?";
+        String sql = "select * from LinkMemo.point where point_english = ?";
         //System.out.println(s);
         return getInstance(PointInfo.class,sql,s);
+    }
+
+    public PointInfo find_center_word(int id)
+    {
+        //String sql = "select * from linkwords.point where point_english = ?";
+        String sql = "select * from LinkMemo.point where point_id = ?";
+        //System.out.println(s);
+        return getInstance(PointInfo.class,sql,id);
     }
 }

@@ -4,14 +4,15 @@ linkwords数据库：
 		user_name
 		user_password
 
-	point表：
-		point_english
-		point_chinese
-		point_id 【PRI】 【自增】
-	
-	link表：
-		link_center （中心单词）【外键】
-		link_looklike 存储中心单词对应的形近词id
-		link_meanlike 存储中心单词对应的意近词id
-		link_relate 存储中心单词对应的关联词id
-		
+```mysql
+point表：
+	point_english
+	point_chinese
+	point_id 【PRI】 【自增】
+
+link表：
+	link_center （中心单词）【外键】
+	link_looklike 存储中心单词对应的形近词id
+	link_meanlike 存储中心单词对应的意近词id
+	link_relate 存储中心单词对应的关联词id
+```

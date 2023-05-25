@@ -1,1 +1,472 @@
-inform,reform,perform 0
+judge,guide 0
+attain,reach,achieve,arrive 1
+award,reward 1
+ask,beg,demand,require,request,implore,claim,pray,entreat 1
+assert,affirm,allege,maintain,testify,claim 1
+believe,trust,confide,rely 1
+cure,treat,heal,remedy 1
+cost,expend,spend,take 1
+contain,include,embrace,involve,comprehend,hold,comprise 1
+conquer,overcome,overthrow,defeat,beat,subdue 1
+explode,burst,erupt 1
+excuse,pardon,forgive,overlook 1
+escape,avoid 1
+emigrate,immigrate,migrate 1
+effect,cause,produce,realize 1
+forbid,prohibit,ban 1
+hope,anticipate,await 1
+kill,murder,slaughter,massacre,assassinate,execute 1
+look,see,watch,observe,witness 1
+lose,miss,misplace 1
+lend,borrow,loan 1
+notice,note,mind,attend,remark 1
+organize,arrange,classify,sort 1
+praise,applaud,commend,compliment 1
+refuse,decline,reject,repel,deny 1
+rouse,arouse,awake,wake,waken 1
+replace,substitute,displace 1
+surprise,amaze,astonish,astound,startle,stun 1
+stick,glue,adhere,cling,cohere 1
+xerox,copy,duplicate 1
+yearn,long,thirst 1
+branch,limb,bough,shoot 1
+complexity,complication 1
+competition,contest,match 1
+command,order,direction,instruction 1
+drill,exercise,practice,training,discipline 1
+expectation,hope,outlook,prospect 1
+evening,night 1
+examination,test,quiz,exam 1
+envy,jealousy 1
+emphasis,stress 1
+fog,mist,smog 1
+glove,mitten 1
+gift,present,souvenir,tip 1
+inquiry,investigation,research,survey 1
+intention,intent,design 1
+knowledge,learning,scholarship 1
+lack,want,absence,shortage,scarcity 1
+money,cash,coin,currency 1
+manner,method,way,mode,fashion,means,approach 1
+merit,virtue,perfection 1
+opinion,view,sentiment,idea 1
+problem,question,issue,matter 1
+protection,refuge,shelter 1
+puzzle,mystery,riddle,problem 1
+principle,theorem,fundamental,law 1
+row,queue,line,rank,file 1
+worth,value 1
+waste,garbage,rubbish,litter,debris,junk 1
+zeal,enthusiasm 1
+aware,conscious,sensible 1
+brittle,fragile,frail 1
+critical,acute,urgent 1
+creative,original,imaginative 1
+criminal,guilty 1
+dominant,predominant,sovereign 1
+equal,equivalent 1
+enthusiastic,intent,zealous 1
+effective,efficient 1
+foolish,silly,stupid,simple,dull 1
+feasible,possible,practicable 1
+final,last,ultimate 1
+grateful,appreciative 1
+humid,damp,moist,wet 1
+humorous,funny,comic,witty 1
+historic,historical 1
+little,few,several 1
+modest,humble 1
+normal,ordinary,regular,natural,typical 1
+opposite,contrary,adverse,reverse,converse 1
+personal,private,individual 1
+peculiar,characteristic,individual,distinctive 1
+splendid,gorgeous,glorious,superb,magnificent 1
+safe,secure 1
+but,however,still,yet,nevertheless,while,whereas 1
+forwards,forth,onwards 1
+maybe,perhaps,possibly,probably 1
+still,yet 1
+if,whether 1
+when,while,as 1
+ought,to,should 1
+attain,reach,achieve,arrive 1
+award,reward 1
+ask,beg,demand,require,request,implore,claim,pray,entreat 1
+assert,affirm,allege,maintain,testify,claim 1
+believe,trust,confide,rely 1
+cure,treat,heal,remedy 1
+cost,expend,spend,take 1
+contain,include,embrace,involve,comprehend,hold,comprise 1
+conquer,overcome,overthrow,defeat,beat,subdue 1
+explode,burst,erupt 1
+excuse,pardon,forgive,overlook 1
+escape,avoid 1
+emigrate,immigrate,migrate 1
+effect,cause,produce,realize 1
+forbid,prohibit,ban 1
+hope,anticipate,await 1
+kill,murder,slaughter,massacre,assassinate,execute 1
+look,see,watch,observe,witness 1
+lose,miss,misplace 1
+lend,borrow,loan 1
+notice,note,mind,attend,remark 1
+organize,arrange,classify,sort 1
+praise,applaud,commend,compliment 1
+refuse,decline,reject,repel,deny 1
+rouse,arouse,awake,wake,waken 1
+replace,substitute,displace 1
+surprise,amaze,astonish,astound,startle,stun 1
+stick,glue,adhere,cling,cohere 1
+xerox,copy,duplicate 1
+yearn,long,thirst 1
+branch,limb,bough,shoot 1
+complexity,complication 1
+competition,contest,match 1
+command,order,direction,instruction 1
+drill,exercise,practice,training,discipline 1
+expectation,hope,outlook,prospect 1
+evening,night 1
+examination,test,quiz,exam 1
+envy,jealousy 1
+emphasis,stress 1
+fog,mist,smog 1
+glove,mitten 1
+gift,present,souvenir,tip 1
+inquiry,investigation,research,survey 1
+intention,intent,design 1
+knowledge,learning,scholarship 1
+lack,want,absence,shortage,scarcity 1
+money,cash,coin,currency 1
+manner,method,way,mode,fashion,means,approach 1
+merit,virtue,perfection 1
+opinion,view,sentiment,idea 1
+problem,question,issue,matter 1
+protection,refuge,shelter 1
+puzzle,mystery,riddle,problem 1
+principle,theorem,fundamental,law 1
+row,queue,line,rank,file 1
+worth,value 1
+waste,garbage,rubbish,litter,debris,junk 1
+zeal,enthusiasm 1
+aware,conscious,sensible 1
+brittle,fragile,frail 1
+critical,acute,urgent 1
+creative,original,imaginative 1
+criminal,guilty 1
+dominant,predominant,sovereign 1
+equal,equivalent 1
+enthusiastic,intent,zealous 1
+effective,efficient 1
+foolish,silly,stupid,simple,dull 1
+feasible,possible,practicable 1
+final,last,ultimate 1
+grateful,appreciative 1
+humid,damp,moist,wet 1
+humorous,funny,comic,witty 1
+historic,historical 1
+little,few,several 1
+modest,humble 1
+normal,ordinary,regular,natural,typical 1
+opposite,contrary,adverse,reverse,converse 1
+personal,private,individual 1
+peculiar,characteristic,individual,distinctive 1
+splendid,gorgeous,glorious,superb,magnificent 1
+safe,secure 1
+but,however,still,yet,nevertheless,while,whereas 1
+forwards,forth,onwards 1
+maybe,perhaps,possibly,probably 1
+if,whether 1
+ability, capability, capacity, proficiency, competence 1
+abstract, conceptual, theoretical, hypothetical, intellectual 1
+accurate, precise, exact, correct, right 1
+achieve, attain, accomplish, reach, fulfill 1
+acknowledge, recognize, admit, confess, concede 1
+adapt, adjust, conform, acclimate, accommodate 1
+advantage, benefit, merit, asset, gain 1
+analyze, examine, scrutinize, investigate, probe 1
+anticipate, expect, foresee, predict, forecast 1
+approach, method, technique, way, means 1
+argue, debate, dispute, contend, quarrel 1
+assess, evaluate, appraise, estimate, gauge 1
+assume, presume, suppose, postulate, hypothesize 1
+authority, power, jurisdiction, control, dominance 1
+benefit, advantage, merit, asset, gain 1
+challenge, difficulty, problem, obstacle, issue 1
+circumstance, situation, condition, state, scenario 1
+clarify, explain, elucidate, explicate, interpret 1
+classify, categorize, sort, arrange, organize 1
+communicate, convey, express, articulate, state 1
+compare, contrast, differentiate, distinguish, separate 1
+compete, contend, vie, rival, match 1
+complement, enhance, supplement, improve, enrich 1
+complex, complicated, intricate, convoluted, involved 1
+comprehend, understand, grasp, apprehend, perceive 1
+concentrate, focus, center, target, aim 1
+concept, idea, notion, thought, perception 1
+conclude, infer, deduce, derive, gather 1
+conduct, behavior, demeanor, manner, attitude 1
+confirm, verify, corroborate, substantiate, authenticate 1
+consequence, effect, outcome, result, repercussion 1
+consistent, coherent, compatible, congruous, harmonious 1
+construct, build, create, form, make 1
+context, setting, background, environment, situation 1
+contrast, comparison, differentiation, distinction, disparity 1
+contribute, add, enhance, enrich, augment 1
+convention, tradition, custom, practice, ritual 1
+cooperate, collaborate, work together, join forces, team up 1
+correlate, associate, relate, connect, link 1
+critical, crucial, essential, pivotal, decisive 1
+crucial, critical, essential, pivotal, decisive 1
+culture, civilization, society, community, people 1
+data, information, statistics, facts, figures 1
+debate, argue, dispute, contend, quarrel 1
+define, explain, elucidate, explicate, interpret 1
+demonstrate, show, illustrate, exemplify, indicate 1
+derive, obtain, extract, deduce, infer 1
+design, plan, scheme, blueprint, project 1
+detect, discover, identify, spot, find 1
+develop, evolve, progress, advance, mature 1
+differentiate, distinguish, separate, discriminate, segregate 1
+dimension, size, magnitude, extent, scale 1
+direct, guide, lead, steer, pilot 1
+discuss, talk, converse, chat, communicate 1
+diverse, various, different, distinct, disparate 1
+economy, economics, finance, business, commerce 1
+effect, impact, influence, consequence, result 1
+element, component, factor, ingredient, constituent 1
+emerge, appear, arise, surface, materialize 1
+emphasize, stress, highlight, accentuate, underline 1
+enable, allow, permit, facilitate, empower 1
+environment, ecology, nature, habitat, surroundings 1
+establish, set up, create, found, initiate 1
+estimate, calculate, evaluate, appraise, gauge 1
+evaluate, assess, appraise, estimate, value 1
+evidence, proof, confirmation, validation, verification 1
+evolve, develop, progress, advance, mature 1
+examine, analyze, scrutinize, investigate, probe 1
+expand, enlarge, increase, extend, grow 1
+experience, encounter, undergo, face, confront 1
+explore, investigate, examine, study, research 1
+express, articulate, communicate, convey, state 1
+factor, element, component, ingredient, constituent 1
+feature, characteristic, attribute, quality, trait 1
+focus, concentrate, center, target, aim 1
+function, role, purpose, task, mission 1
+identify, recognize, detect, spot, distinguish 1
+illustrate, demonstrate, show, exemplify, indicate 1
+impact, effect, influence, consequence, result 1
+imply, suggest, indicate, connote, insinuate 1
+improve, enhance, better, upgrade, ameliorate 1
+indicate, show, demonstrate, prove, signify 1
+influence, impact, effect, consequence, result 1
+interpret, explain, elucidate, explicate, clarify 1
+investigate, examine, scrutinize, analyze, probe 1
+involve, engage, include, entail, implicate 1
+issue, problem, difficulty, challenge, obstacle 1
+justify, warrant, validate, legitimize, defend 1
+maintain, sustain, preserve, uphold, support 1
+method, approach, technique, way, means 1
+modify, alter, change, adjust, revise 1
+motive, reason, cause, rationale, justification 1
+occur, happen, take place, arise, surface 1
+option, choice, alternative, selection, preference 1
+organize, arrange, order, systematize, coordinate 1
+outcome, result, consequence, effect, repercussion 1
+perceive, sense, feel, detect, discern 1
+perspective, viewpoint, point of view, outlook, stance 1
+phenomenon, event, occurrence, incident, episode 1
+policy, strategy, plan, program, approach 1
+potential, possibility, likelihood, probability, chance 1
+practical, pragmatic, realistic, sensible, feasible 1
+precise, accurate, exact, specific, definite 1
+predict, forecast, anticipate, project, estimate 1
+prefer, like, favor, choose, opt for 1
+principle, concept, idea, theory, doctrine 1
+priority, preference, importance, precedence, primacy 1
+process, procedure, method, technique, system 1
+produce, create, generate, make, manufacture 1
+professional, expert, specialist, skilled, proficient 1
+profit, benefit, gain, advantage, return 1
+progress, advancement, improvement, development, growth 1
+project, plan, scheme, design, proposal 1
+promote, encourage, support, facilitate, foster 1
+propose, suggest, recommend, advocate, propose 1
+prospect, possibility, likelihood, probability, chance 1
+protect, defend, guard, safeguard, shield 1
+provide, supply, furnish, offer, give 1
+quality, standard, criterion, norm, benchmark 1
+range, variety, diversity, assortment, array 1
+react, respond, reply, answer, retort 1
+reality, fact, truth, actuality, certainty 1
+recognize, acknowledge, admit, accept, realize 1
+recover, regain, retrieve, recoup, reclaim 1
+reflect, mirror, show, express, manifest 1
+reform, improve, change, transform, revamp 1
+regard, consider, view, perceive, esteem 1
+regulate, control, govern, manage, supervise 1
+relate, connect, associate, link, correspond 1
+relevant, pertinent, applicable, appropriate, suitable 1
+rely, depend, count, trust, bank 1
+represent, depict, portray, illustrate, symbolize 1
+require, demand, need, necessitate, require 1
+research, study, investigation, inquiry, exploration 1
+resource, asset, capital, wealth, treasure 1
+respond, react, reply, answer, retort 1
+restore, renew, revitalize, rejuvenate, refresh 1
+reveal, disclose, uncover, expose, unveil 1
+review, examine, scrutinize, analyze, evaluate 1
+revolution, upheaval, transformation, innovation, upheaval 1
+reward, benefit, compensation, remuneration, recompense 1
+role, function, duty, responsibility, task 1
+satisfy, fulfill, meet, comply, gratify 1
+scenario, situation, circumstance, condition, context 1
+scope, range, extent, breadth, width 1
+secure, ensure, guarantee, assure, safeguard 1
+seek, search, look for, pursue, aspire 1
+select, choose, pick, elect, opt for 1
+sensitive, delicate, subtle, fragile, vulnerable 1
+separate, divide, split, break up, disconnect 1
+sequence, order, arrangement, series, progression 1
+significant, important, substantial, meaningful, notable 1
+similar, alike, comparable, analogous, resembling 1
+simulate, imitate, emulate, mimic, copy 1
+situation, condition, circumstance, state, status 1
+social, cultural, societal, communal, public 1
+source, origin, beginning, root, cause 1
+specific, particular, individual, distinct, precise 1
+speculate, conjecture, guess, surmise, speculate 1
+stable, steady, secure, firm, unchanging 1
+standard, norm, criterion, guideline, benchmark 1
+stimulate, excite, arouse, provoke, incite 1
+structure, organization, framework, system, arrangement 1
+style, fashion, trend, mode, manner 1
+submit, present, propose, offer, tender 1
+success, achievement, accomplishment, triumph, victory 1
+sufficient, enough, adequate, ample, satisfactory 1
+suggest, propose, recommend, advise, urge 1
+summarize, sum up, condense, abstract, synopsize 1
+supplement, complement, enhance, augment, add to 1
+support, uphold, maintain, sustain, back up 1
+surface, exterior, outside, facade, front 1
+survive, endure, last, persist, withstand 1
+symbolize, represent, signify, stand for, denote 1
+synthesis, combination, integration, amalgamation, fusion 1
+target, aim, goal, objective, purpose 1
+technology, technique, method, process, system 1
+temporary, transitory, fleeting, momentary, brief 1
+tension, stress, pressure, strain, anxiety 1
+terminate, end, conclude, finish, close 1
+theme, topic, subject, motif, idea 1
+theory, principle, concept, idea, hypothesis 1
+trace, track, follow, pursue, trail 1
+tradition, custom, practice, convention, ritual 1
+transfer, move, convey, transport, shift 1
+transform, change, alter, modify, convert 1
+transition, change, shift, conversion, evolution 1
+transmit, convey, communicate, broadcast, send 1
+transparent, clear, see-through, lucid, obvious 1
+transport, carry, convey, haul, transfer 1
+trigger, activate, initiate, spark, provoke 1
+typical, common, standard, ordinary, usual 1
+ultimate, final, last, eventual, conclusive 1
+unify, unite, merge, combine, integrate 1
+unique, distinctive, singular, exceptional, unparalleled 1
+universal, global, worldwide, international, ubiquitous 1
+utilize, use, employ, exploit, make use of 1
+valid, legitimate, sound, reasonable, justifiable 1
+variety, diversity, assortment, range, selection 1
+vehicle, car, automobile, truck, van 1
+verify, confirm, validate, authenticate, substantiate 1
+version, edition, variation, adaptation, modification 1
+vertical, upright, perpendicular, straight, plumb 1
+vibrant, lively, energetic, dynamic, vivid 1
+view, perspective, viewpoint, opinion, stance 1
+violate, infringe, breach, transgress, contravene 1
+vision, sight, perception, view, outlook 1
+visual, graphic, pictorial, illustrative, symbolic 1
+volume, size, capacity, quantity, magnitude 1
+vulnerable, fragile, susceptible, defenseless, exposed 1
+welfare, well-being, prosperity, happiness, comfort 1
+whereas, while, although, though, even though 1
+widespread, prevalent, common, ubiquitous, rampant 1
+willing, ready, prepared, inclined, disposed 1
+witness, observe, see, watch, behold 1
+yield, produce, generate, provide, give 1
+zone, area, region, district, sector 1
+abnormal, unusual, atypical, aberrant, deviant 1
+abolish, eliminate, eradicate, abolish, extinguish 1
+absorb, soak up, take in, assimilate, ingest 1
+abstract, theoretical, conceptual, notional, hypothetical 1
+abuse, mistreat, maltreat, misuse, exploit 1
+accelerate, speed up, quicken, hasten, expedite 1
+access, entry, entrance, admittance, admission 1
+accommodate, adapt, adjust, conform, fit in 1
+accompany, go with, attend, escort, chaperone 1
+accumulate, collect, amass, gather, pile up 1
+accurate, precise, exact, correct, true 1
+acknowledge, admit, accept, recognize, concede 1
+acquire, obtain, get, gain, secure 1
+adapt, adjust, modify, alter, change 1
+adequate, sufficient, satisfactory, acceptable, tolerable 1
+adhere, stick, cling, hold fast, bond 1
+adjacent, neighboring, adjoining, nearby, close 1
+adjust, adapt, modify, alter, change 1
+administrate, manage, direct, govern, supervise 1
+adolescent, teenage, juvenile, young, pubescent 1
+advocate, support, promote, champion, endorse 1
+affect, influence, impact, impress, touch 1
+aggregate, total, sum, whole, entirety 1
+alleviate, relieve, ease, mitigate, soothe 1
+allocate, assign, distribute, apportion, allot 1
+alternative, substitute, replacement, different, other 1
+ambiguous, unclear, vague, uncertain, equivocal 1
+amend, modify, change, revise, correct 1
+analogy, comparison, similarity, correspondence, parallel 1
+analyze, examine, scrutinize, study, investigate 1
+anticipate, expect, predict, foresee, envisage 1
+anxiety, worry, concern, unease, apprehension 1
+apparent, evident, obvious, clear, manifest 1
+appeal, attraction, charm, allure, fascination 1
+appendix, supplement, addendum, attachment, adjunct 1
+appreciate, value, esteem, cherish, treasure 1
+approach, method, technique, way, manner 1
+appropriate, suitable, fitting, proper, apt 1
+arise, emerge, spring up, result, come up 1
+aspect, facet, feature, characteristic, attribute 1
+assert, declare, maintain, affirm, state 1
+assess, evaluate, judge, estimate, appraise 1
+assign, allocate, designate, appoint, delegate 1
+assume, suppose, presume, conjecture, speculate 1
+assure, guarantee, promise, pledge, ensure 1
+attach, connect, join, affix, fasten 1
+attain, achieve, accomplish, reach, obtain 1
+attitude, outlook, perspective, approach, stance 1
+attribute, ascribe, assign, impute, credit 1
+audit, examine, inspect, scrutinize, review 1
+authentic, genuine, real, true, bona fide 1
+authorize, approve, empower, permit, license 1
+autonomous, independent, self-governing, sovereign, free 1
+avail, help, assist, benefit, advantage 1
+aware, conscious, cognizant, informed, mindful 1
+behalf, benefit, interest, account, sake 1
+bias, prejudice, partiality, inclination, tendency 1
+bond, link, connection, tie, association 1
+brief, short, concise, summary, succinct 1
+bulk, mass, volume, size, magnitude 1
+capable, able, competent, qualified, skilled 1
+capacity, ability, capability, potential, power 1
+capture, seize, catch, grasp, apprehend 1
+cease, stop, halt, terminate, discontinue 1
+challenge, difficulty, problem, obstacle, hurdle 1
+channel, pathway, route, way, conduit 1
+characteristic, feature, trait, quality, attribute 1
+chart, graph, diagram, table, map 1
+clarify, explain, elucidate, simplify, expound 1
+classify, categorize, sort, organize, arrange 1
+client, customer, patron, buyer, purchaser 1
+code, language, cipher, encryption, symbol 1
+coincide, correspond, agree, match, conform 1
+collaborate, cooperate, work together, join forces, team up 1
+colleague, coworker, associate, partner, collaborator 1
+commence, begin, start, initiate, launch 1
+comment, remark, observation, statement, opinion 1

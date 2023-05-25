@@ -1,3 +1,4 @@
+```java
 package com.example.webdemo.dao;
 
 public int get_center_id(String center);
@@ -11,3 +12,5 @@ public String Add(int id,String link,int index);
 
 public String Renew(int id,String link,int index)
 //若以该单词为中心的链接已存在，提供该中心id、处理完毕后的新连接String、标记，执行更新该链接的操作
+```
+
