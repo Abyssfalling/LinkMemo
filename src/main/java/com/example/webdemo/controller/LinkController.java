@@ -4,14 +4,21 @@ import com.example.webdemo.dao.Link_Dao;
 import com.example.webdemo.dao.Point_Dao;
 import com.example.webdemo.model.LinkInfo;
 import com.example.webdemo.model.PointInfo;
+import com.example.webdemo.util.DBUtil;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.util.ArrayList;
+import java.util.List;
+
 @Controller
 public class LinkController {
+
     public static class Result
     {
         public String str;
@@ -21,11 +28,20 @@ public class LinkController {
         }
     }
 
+    public static List<PointInfo> point_list = new ArrayList<>();
+    public static List<LinkInfo> link_list = new ArrayList<>();
+    public static ResultSet resultSet = null;
+    public static PreparedStatement statement = null;
+    public static Connection connection = null;
+
 
     @ResponseBody
     @RequestMapping(value = "/find")
     public Result checkFind(@RequestParam(name = "english") String English) {
         //System.out.println("输入：" + English + " " + Chinese);
+
+        connection = DBUtil.connection();
+
         Point_Dao p = new Point_Dao();
         PointInfo point = p.find_center_word(English);
 
@@ -91,6 +107,7 @@ public class LinkController {
             Result obj = new Result(result.toString());
 
             System.out.println(obj.str);
+            DBUtil.close(connection, statement, resultSet);
             return obj;
         }
         else

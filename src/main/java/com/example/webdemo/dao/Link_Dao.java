@@ -9,25 +9,23 @@ import java.lang.reflect.Field;
 import java.sql.*;
 import java.util.*;
 
+import com.example.webdemo.controller.LinkController;
 public class Link_Dao {
-    static List<LinkInfo> list = new ArrayList<>();
-    static ResultSet resultSet = null;
-    static PreparedStatement statement = null;
-    static Connection connection = null;
+
 
     public static void update(String sql, Object... args) {
         try {
-            connection = DBUtil.connection();
-            statement = connection.prepareStatement(sql);
+            LinkController.connection = DBUtil.connection();
+            LinkController.statement = LinkController.connection.prepareStatement(sql);
             for (int i = 0; i < args.length; i++) {
-                statement.setObject(i + 1, args[i]);
+                LinkController.statement.setObject(i + 1, args[i]);
             }
-            statement.execute();
+            LinkController.statement.execute();
         } catch (SQLException e) {
             throw new RuntimeException(e);
         } finally {
             //7关闭资源
-            DBUtil.close(connection, statement, resultSet);
+            DBUtil.close(LinkController.connection, LinkController.statement, LinkController.resultSet);
         }
     }
 
@@ -77,29 +75,28 @@ public class Link_Dao {
     public <T> T getInstance(Class<T> clazz, String sql, Object... args) {
         try {
             // 1.获取数据库连接
-            connection = DBUtil.connection();
 
             // 2.预编译sql语句，得到PreparedStatement对象
-            statement = connection.prepareStatement(sql);
+            LinkController.statement = LinkController.connection.prepareStatement(sql);
 
             // 3.填充占位符
             for (int i = 0; i < args.length; i++) {
-                statement.setObject(i + 1, args[i]);
+                LinkController.statement.setObject(i + 1, args[i]);
             }
 
             // 4.执行executeQuery(),得到结果集：ResultSet
-            resultSet = statement.executeQuery();
+            LinkController.resultSet = LinkController.statement.executeQuery();
 
             // 5.得到结果集的元数据：ResultSetMetaData
-            ResultSetMetaData rsmd = resultSet.getMetaData();
+            ResultSetMetaData rsmd = LinkController.resultSet.getMetaData();
 
             // 6.1通过ResultSetMetaData得到columnCount,columnLabel；通过ResultSet得到列值
             int columnCount = rsmd.getColumnCount();
-            if (resultSet.next()) {
+            if (LinkController.resultSet.next()) {
                 T t = clazz.newInstance();
                 for (int i = 0; i < columnCount; i++) {// 遍历每一个列
                     // 获取列值
-                    Object columnVal = resultSet.getObject(i + 1);
+                    Object columnVal = LinkController.resultSet.getObject(i + 1);
                     // 获取列的别名:列的别名，使用类的属性名充当
                     String columnLabel = rsmd.getColumnLabel(i + 1);
                     // 6.2使用反射，给对象的相应属性赋值
@@ -111,9 +108,6 @@ public class Link_Dao {
             }
         } catch (Exception e) {
             e.printStackTrace();
-        } finally {
-            // 7.关闭资源
-            DBUtil.close(connection, statement, resultSet);
         }
         return null;
     }
@@ -129,10 +123,8 @@ public class Link_Dao {
     public LinkInfo find_center_id(int id)
     {
         String sql = "select * from LinkMemo.link where link_center = ?";
-        //System.out.println(s);
         return getInstance(LinkInfo.class,sql,id);
     }
-
 
     //查询链接是否存在，存在true，不存在false
     public boolean checkAdd(int id)
@@ -145,7 +137,6 @@ public class Link_Dao {
 
     public String Add(int id,String link,int index) {
 
-        //Link_Dao d = new Link_Dao();
 
         if(index == 0)
         {
