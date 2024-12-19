@@ -1,0 +1,11 @@
+依据后端存储结构，前后端交互标准如下：
+	【前端】用户输入单词，查询选中单词，作为point_english向后端发送
+		【后端】查询point_english对应的point_id、三组存储关系词id的数组
+		【后端】查询每组存储关系词中，id对应的point_english，与index合并成元组，返回前端
+
+	示例：
+		前端发送：proposition
+		后端返回：(rate,1),（ratio,1),(percentage,1),(proposal,0)
+		
+	前端使用返回的元组，数字为连线颜色、单词为连接单词，将关系图呈现在网页上
+	除此之外，需要增加点击切换的功能

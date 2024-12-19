@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LinkFragment">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:checkedButton="@id/meanLikeBtn"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/meanLikeBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="近义词" />
+
+        <RadioButton
+            android:id="@+id/lookLikeBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="形似词" />
+
+        <RadioButton
+            android:id="@+id/relateBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="关联词" />
+    </RadioGroup>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/centerBtn"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_width="192dp"
+        android:layout_height="192dp"
+        android:autoSizeMaxTextSize="32dp"
+        android:autoSizeMinTextSize="12dp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="serif"
+        android:text="Hello"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:cornerRadius="96dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/radioGroup" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/linkBtn1"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginLeft="100dp"
+        android:autoSizeMaxTextSize="32dp"
+        android:autoSizeMinTextSize="6dp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="serif"
+        android:text="Hello"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:cornerRadius="64dp"
+        app:layout_constraintBottom_toTopOf="@id/centerBtn"
+        app:layout_constraintLeft_toLeftOf="@id/centerBtn" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/linkBtn2"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="100dp"
+        android:autoSizeMaxTextSize="32dp"
+        android:autoSizeMinTextSize="6dp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="serif"
+        android:text="Hello"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:cornerRadius="64dp"
+        app:layout_constraintRight_toRightOf="@id/centerBtn"
+        app:layout_constraintTop_toBottomOf="@id/centerBtn" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/linkBtn3"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="0dp"
+        android:autoSizeMaxTextSize="32dp"
+        android:autoSizeMinTextSize="6dp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="serif"
+        android:text="Hello"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:cornerRadius="64dp"
+        app:layout_constraintLeft_toLeftOf="@id/centerBtn"
+        app:layout_constraintTop_toBottomOf="@id/centerBtn" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/linkBtn4"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="0dp"
+        android:autoSizeMaxTextSize="32dp"
+        android:autoSizeMinTextSize="6dp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="serif"
+        android:text="Hello"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:cornerRadius="64dp"
+        app:layout_constraintBottom_toTopOf="@id/centerBtn"
+        app:layout_constraintRight_toRightOf="@id/centerBtn" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/linkBtn5"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_width="92dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="10dp"
+        android:autoSizeMaxTextSize="32dp"
+        android:autoSizeMinTextSize="4dp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="serif"
+        android:text="Hello"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:cornerRadius="46dp"
+        app:layout_constraintRight_toLeftOf="@id/centerBtn"
+        app:layout_constraintTop_toTopOf="@id/centerBtn" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/linkBtn6"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_width="92dp"
+        android:layout_height="92dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        android:autoSizeMaxTextSize="32dp"
+        android:autoSizeMinTextSize="4dp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="serif"
+        android:text="Hello"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:cornerRadius="46dp"
+        app:layout_constraintLeft_toRightOf="@id/centerBtn"
+        app:layout_constraintTop_toTopOf="@id/centerBtn" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/linkBtn7"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_width="92dp"
+        android:layout_height="92dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="0dp"
+        android:autoSizeMaxTextSize="32dp"
+        android:autoSizeMinTextSize="4dp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="serif"
+        android:text="Hello"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:cornerRadius="46dp"
+        app:layout_constraintBottom_toBottomOf="@id/centerBtn"
+        app:layout_constraintLeft_toRightOf="@id/centerBtn" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/linkBtn8"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_width="92dp"
+        android:layout_height="92dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="0dp"
+        android:autoSizeMaxTextSize="32dp"
+        android:autoSizeMinTextSize="4dp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="serif"
+        android:text="Hello"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:cornerRadius="46dp"
+        app:layout_constraintBottom_toBottomOf="@id/centerBtn"
+        app:layout_constraintRight_toLeftOf="@id/centerBtn" />
+
+    <ImageButton
+        android:id="@+id/add"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:background="@color/white"
+        android:scaleType="fitXY"
+        android:src="@drawable/add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LinkMemo图单词记忆APP</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="customer_assciation_type">
+        <item>近义词</item>
+        <item>反义词</item>
+        <item>同义词</item>
+    </string-array>
+
+</resources>
