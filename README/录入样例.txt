@@ -1,5 +1,0 @@
-intermittent,enternal,durable,perpetual,periodic,persistent 1
-transform,shift 1
-trace,track 0
-toxic,mortal,fatal,terminal,vicious,malignant 1
-speculate,spectrum,specify,specimen 0
